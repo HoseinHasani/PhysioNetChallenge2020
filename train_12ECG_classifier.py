@@ -26,7 +26,7 @@ def train_12ECG_classifier(input_directory, output_directory):
     
     batch_size = 128
     
-    n_step = 300
+    n_step = 60
     
     #######
     N_data = 10000
