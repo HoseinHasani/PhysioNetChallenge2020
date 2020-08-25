@@ -24,9 +24,9 @@ def train_12ECG_classifier(input_directory, output_directory):
     
     lambdaa_DG = 0
     
-    batch_size = 128
+    batch_size = 100
     
-    n_step = 150
+    n_step = 160
     
     #######
     N_data = 10000
