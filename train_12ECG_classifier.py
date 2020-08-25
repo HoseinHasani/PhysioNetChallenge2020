@@ -16,7 +16,7 @@ def train_12ECG_classifier(input_directory, output_directory):
     seed = 0
     np.random.seed(seed)
     
-    epoch_size = 100
+    epoch_size = 200
     
     Length = 5200
     
@@ -26,7 +26,7 @@ def train_12ECG_classifier(input_directory, output_directory):
     
     batch_size = 128
     
-    n_step = 150
+    n_step = 60
     
     #######
     N_data = 10000
